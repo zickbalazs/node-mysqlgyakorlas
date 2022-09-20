@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="/api/delete-phone">
+            <div>
+                <label for="id">Azonosító:</label>
+                <input type="number" name="id">
+            </div>
+            <input type="submit" value="Törlés">
+        </form>
+        <p><a href="/">Telefon Hozzáadása</a></p>
+        <p><a href="/update">Telefon adatainak frissítése</a></p>
+        <p><a href="/delete">Telefon törlése</a></p>
+        <p><a href="/api/list-phones">Telefonok listázása</a></p>
+    </div>
+</body>
+</html>
